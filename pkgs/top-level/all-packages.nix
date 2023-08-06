@@ -26167,6 +26167,8 @@ with pkgs;
 
   icecream = callPackage ../servers/icecream { };
 
+  iceshrimp = callPackage ../servers/iceshrimp { };
+
   icingaweb2-ipl = callPackage ../servers/icingaweb2/ipl.nix { };
   icingaweb2-thirdparty = callPackage ../servers/icingaweb2/thirdparty.nix { };
   icingaweb2 = callPackage ../servers/icingaweb2 { };
